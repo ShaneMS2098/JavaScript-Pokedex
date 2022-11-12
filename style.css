@@ -1,0 +1,703 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 0%;
+    margin: 0%;
+}
+.sctns1 {
+    margin-top: 2%;
+}
+
+header h1 {
+    text-align: center;
+}
+header h1:hover {
+    background-color: chartreuse;
+    box-shadow: 2px 8px 3px 2px;
+}
+.pk1 {
+    background-color: #e44650;
+    width: 35vw;
+    border-top-left-radius: 25px;
+    margin-left: 10%;
+    border-bottom-left-radius: 10%;
+    border-left: 15px solid #a11620;
+    border-bottom: 15px solid #a11620;
+}
+.circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    background-color: white ;
+    padding: 10px;
+}
+.circle1 {
+    width: 75px;
+    height: 75px;
+    border-radius: 75px;
+    background-color: #36eee0 ;
+    margin-left: 15%;
+    box-shadow: 0px 9px 0px 10px #38b6ff;
+}
+
+.fct1 img {
+    background-color: white ;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 17%;
+    padding-right: 17%;
+    border: 2px solid gray;
+    border-radius: 10px;
+    margin-top: 10%;
+}
+.fc1 {
+    margin-left: 15%;
+    padding: 0 auto;
+    text-align: center;
+    width: 380px;
+    background-color: #C2C1A5;
+    border-left: 10px solid gray;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 7%;
+    border-bottom-left-radius: 10%;
+    border-bottom: 10px solid gray;
+}
+.minbt1, .minbt2 {
+    width: 80px;
+    height: 17px;
+    background-color: red;
+    border-radius: 10px;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+.minbt2 {
+    background-color: #1B9AAA;
+}
+.cirbt1 {
+    width: 60px;
+    height: 60px;
+    background-color: black;
+    border-radius: 50px;
+}
+.cirbt2 {
+    width: 50px;
+    height: 50px;
+    background-color: #424242;
+    border-radius: 50px;
+    margin-left: 8px;
+}
+.cruz {
+    background-color: #424242;
+    height: 100px;
+    position: relative;
+    width: 20px;
+    margin: 0 auto;
+}
+.cruz::after {
+    background-color: #424242;
+    content: "";
+    height: 20px;
+    left: -40px;
+    position: absolute;
+    top: 40px;
+    width: 100px;
+}
+.bt1 {
+    background-color: #A9E190;
+    border: none;
+    border-radius: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 25px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-left: 35%;
+}
+.midim {
+    margin-top: 3%;
+    margin-left: 10%;
+}
+#pokemonName {
+    color: black;
+    font-size: 25px;
+}
+.pk2 {
+    background-color:  #e44650;
+    height: 77vh;
+    width: 37vw;
+    overflow: hidden;
+    margin-top: 5%;
+    color: yellow;
+    border-radius: 0% 60% 0% 0%;
+    border-top: 10px solid #a11620;
+    border-right: 10px solid #a11620;
+    border-bottom: 10px solid #a11620;
+}
+.contai-d {
+    background-color: black;
+    width: 26.5vw;
+    margin-top: 15%;
+    margin-left: 12%;
+    border-radius: 10px;
+}
+.tp,  .pMoves{
+    padding-top: 3%;
+    padding-left: 10%;
+}
+.tp p, .pMoves p {
+    margin-left: 2%;
+    background-color: #6fb98f;
+    color: white;
+    border-radius: 2px;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.tcls {
+    border-bottom-left-radius: 20px;
+    margin-left: 12%;
+    border-radius: 10px;
+    margin-top: 5%;
+    border-left: 10px solid #3D5A6C;
+    border-bottom: 10px solid #3D5A6C;
+}
+.tcl1 {
+    background-color: #38b6ff;
+    width: 5vw;
+    height: 7vh;
+    border: 1px solid blue;
+}
+.minbt3, .minbt4 {
+    width: 80px;
+    height: 17px;
+    background-color: #313131;
+    border-radius: 10px;
+    margin-top: 5%;
+    margin-left: 44%;
+}
+.minbt4 {
+    margin-left: 5%;
+}
+.dct1 {
+    margin-left: 12%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-top: 5%;
+    border-left: 8px solid gray;
+    border-bottom: 8px solid gray;
+}
+.tc1 {
+    height: 8vh;
+    width: 6vw;
+    background-color: white;
+    border: 1px solid gray;
+}
+.cr1 {
+    border-radius: 100px;
+    width: 30px;
+    height: 30px;
+    background-color: gold;
+}
+.bi1, .estadistics, .altura-p, .peso-p, .sctns1, .dct1, .midim, .tp, .pMoves, .tcls-sup, .dcrtions {
+    display: flex;
+}
+.con-alt1, .con-pes1, .tcls, .contai-d, .fc1 {
+    height: fit-content;
+}
+.dct1, .tcls {
+    width: fit-content;
+}
+.tcls, .tc1 {
+    cursor: pointer;
+}
+.btcir1 {
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    background-color: #BFAE48;
+    margin-top: 7%;
+    margin-left: 28%;
+}
+.estadistics {
+    margin-top: 5%;
+    margin-left: 12%;
+}
+.con-alt1, .con-pes1 {
+    width: 125px;
+    background-color: black;
+    padding-left: 3%;
+    border-radius: 5px;
+}
+.altura-p, .peso-p {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.altura-p p, .peso-p p {
+    background-color: #6fb98f;
+    border-radius: 2px;
+    margin-left: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    color: white;
+}
+.con-pes1 {
+    margin-left: 19%;
+}
+
+
+/* SCREEN */
+@media (min-width: 1200px) and (max-width: 1300px) {
+    .fct1 img {
+        border-radius: 10px;
+        margin-top: 10%;
+    }
+    .fc1 {
+        margin-left: 2vw;
+        width: 380px;
+        background-color: #C2C1A5;
+        border-left: 10px solid gray;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 7%;
+        border-bottom-left-radius: 10%;
+        border-bottom: 10px solid gray;
+    }
+}
+@media (min-width:1080px) and (max-width: 1199px) {
+    .fct1 img {
+        border: 1px solid gray;
+        border-radius: 10px;
+        margin-top: 10%;
+        width: 10vw;
+    }
+    .fc1 {
+        margin-left: 2vw;
+        width: 30vw;
+    }
+    #pokeName {
+        width: 25vw;
+        font-size: 2vw;
+    }
+    .cruz {
+        height: 16vh;
+    }
+}
+@media (min-width: 800px) and (max-width: 1080px) {
+    .pk1 {
+        border-top-left-radius: 25px;
+        margin-left: 10%;
+    }
+    .fct1 img {
+        border: 1px solid gray;
+        border-radius: 10px;
+        margin-top: 10%;
+        width: 9.5vw;
+    }
+    .fct1  figcaption {
+        font-size: 13px;
+    }
+    .fc1 {
+        width: 27vw;
+    }
+    #pokeName {
+        width: 25vw;
+        font-size: 2vw;
+    }
+    #pokemonName {
+        font-size: 15px;
+    }
+    .cruz {
+        height: 70px;
+    }
+    .cruz::after {
+        height: 20px;
+        left: -22px;
+        top: 25px;
+        width: 60px;
+    }
+    .circle {
+        width: 7vw;
+        height: 7vw;
+        border-radius: 100px;
+        background-color: white ;
+    }
+    .circle1 {
+        width: 5vw;
+        height: 5vw;
+        border-radius: 75px;
+        background-color: #36eee0;
+        box-shadow: 0px 6px 0px 7px #38b6ff;
+    }
+    .bt1 {
+        padding-left: 2vw;
+        padding-right: 2vw;
+        padding-top: 2vw;
+        padding-bottom: 2vw;
+        font-size: 20px;
+        font-weight: 600;
+        cursor: pointer;
+        margin-left: 35%;
+    }
+    .pk2 {
+        height: fit-content;
+        width: fit-content;
+        overflow: hidden;
+        margin-top: 5%;
+        border-radius: 0% 20% 0% 0%;
+        font-size: 13px;
+    }
+    .contai-d article {
+        font-size: 12px;
+    }
+    .contai-d, .tcls, .dct1, .estadistics {
+        margin-left: 3%;
+    }
+    .tcl1 {
+        width: 5vw;
+        height: 4vh;
+    }
+    .cirbt1 {
+        width: 50px;
+        height: 50px;
+        background-color: black;
+        border-radius: 200px;
+    }
+    .cirbt2 {
+        width: 30px;
+        height: 30px;
+        background-color: #424242;
+        border-radius: 50px;
+        margin-left: 8px;
+    }
+    .minbt3, .minbt4 {
+        width: 60px;
+        height: 17px;
+        margin-top: 5%;
+        margin-left: 32%;
+    }
+    .minbt4 {
+        margin-left: 5%;
+    }
+    .con-alt1 {
+        margin-left: 1%;
+        width: fit-content;
+    }
+    .con-pes1 {
+        margin-left: 1%;
+        width: fit-content;
+    }
+    .minbt1, .minbt2 {
+        width: 45px;
+        height: 17px;
+        background-color: red;
+        border-radius: 10px;
+        margin-top: 5%;
+        margin-left: 5%;
+    }
+    .minbt2 {
+        background-color: #1B9AAA;
+    }
+    .tc1 {
+        height: 6vh;
+        width: 6vw;
+        background-color: white;
+        border: 1px solid gray;
+    }
+}
+@media (min-width: 501px) and (max-width: 799px) {
+    .pk1 {
+        height: fit-content;
+        border-top-left-radius: 25px;
+        margin-left: 10%;
+        border-bottom-left-radius: 10%;
+        border-left: 15px solid #a11620;
+        border-bottom: 15px solid #a11620;
+    }
+    .fct1 img {
+        border: 1px solid gray;
+        border-radius: 10px;
+        margin-top: 10%;
+        width: 9.5vw;
+    }
+    .fct1  figcaption {
+        font-size: 13px;
+    }
+    .fc1 {
+        width: 27vw;
+    }
+    #pokeName {
+        width: 13vw;
+        font-size: 10px;
+    }
+    #pokemonName {
+        font-size: 15px;
+    }
+    .cruz {
+        height: 60px;
+    }
+    .cruz::after {
+        height: 18px;
+        left: -22px;
+        top: 20px;
+        width: 60px;
+    }
+    .circle {
+        width: 7vw;
+        height: 7vw;
+        border-radius: 100px;
+        background-color: white ;
+    }
+    .circle1 {
+        width: 5vw;
+        height: 5vw;
+        border-radius: 75px;
+        background-color: #36eee0;
+        box-shadow: 0px 6px 0px 7px #38b6ff;
+    }
+    .bt1 {
+        padding-left: 2vw;
+        padding-right: 2vw;
+        padding-top: 2vw;
+        padding-bottom: 2vw;
+        font-size: 20px;
+        font-weight: 600;
+        cursor: pointer;
+        margin-left: 35%;
+    }
+    .pk2 {
+        height: fit-content;
+        width: fit-content;
+        overflow: hidden;
+        margin-top: 5%;
+        border-radius: 0% 20% 0% 0%;
+        font-size: 13px;
+    }
+    .contai-d article {
+        font-size: 12px;
+    }
+    .contai-d, .tcls, .dct1, .estadistics {
+        margin-left: 3%;
+    }
+    .tcl1 {
+        width: 5vw;
+        height: 4vh;
+    }
+    .cirbt1 {
+        width: 40px;
+        height: 40px;
+        background-color: black;
+        border-radius: 50px;
+    }
+    .cirbt2 {
+        width: 30px;
+        height: 30px;
+        background-color: #424242;
+        border-radius: 50px;
+        margin-left: 8px;
+    }
+    .minbt3, .minbt4 {
+        width: 60px;
+        height: 17px;
+        margin-top: 5%;
+        margin-left: 32%;
+    }
+    .minbt4 {
+        margin-left: 5%;
+    }
+    .con-alt1 {
+        margin-left: 1%;
+        width: fit-content;
+    }
+    .con-pes1 {
+        margin-left: 1%;
+        width: fit-content;
+    }
+    .minbt1, .minbt2 {
+        width: 45px;
+        height: 17px;
+        background-color: red;
+        border-radius: 10px;
+        margin-top: 5%;
+        margin-left: 5%;
+    }
+    .minbt2 {
+        background-color: #1B9AAA;
+    }
+    .tc1 {
+        height: 6vh;
+        width: 6vw;
+        background-color: white;
+        border: 1px solid gray;
+    }
+    .midim {
+        margin-left: 0%;
+    }
+    .fct1 img {
+        padding-top: 0%;
+        padding-bottom: 0%;
+        padding-left: 0%;
+        padding-right: 0%;
+        border: 2px solid gray;
+        border-radius: 10px;
+        margin-top: 10%;
+    }
+    .fc1 {
+        width: 18vw;
+        margin-left: 25%;
+    }
+}
+@media (max-width: 500px) {
+    .pk1 {
+        height: fit-content;
+        border-top-left-radius: 25px;
+        margin-left: 10%;
+        border-bottom-left-radius: 10%;
+        border-left: 15px solid #a11620;
+        border-bottom: 15px solid #a11620;
+    }
+    .fct1 img {
+        border: 1px solid gray;
+        border-radius: 10px;
+        margin-top: 10%;
+        width: 9.5vw;
+    }
+    .fct1  figcaption {
+        font-size: 13px;
+    }
+    .fc1 {
+        width: 27vw;
+    }
+    #pokeName {
+        width: 13vw;
+        font-size: 10px;
+    }
+    #pokemonName {
+        font-size: 15px;
+    }
+    .cruz {
+        height: 30px;
+        width: 13px;
+    }
+    .cruz::after {
+        height: 13px;
+        left: -9px;
+        top: 10px;
+        width: 30px;
+    }
+    .circle {
+        width: 7vw;
+        height: 7vw;
+        border-radius: 100px;
+        background-color: white ;
+    }
+    .circle1 {
+        width: 5vw;
+        height: 5vw;
+        border-radius: 75px;
+        background-color: #36eee0;
+        box-shadow: 0px 6px 0px 7px #38b6ff;
+    }
+    .bt1 {
+        padding-left: 2vw;
+        padding-right: 2vw;
+        padding-top: 2vw;
+        padding-bottom: 2vw;
+        font-size: 20px;
+        font-weight: 600;
+        cursor: pointer;
+        margin-left: 35%;
+    }
+    .pk2 {
+        height: fit-content;
+        width: fit-content;
+        overflow: hidden;
+        margin-top: 5%;
+        border-radius: 0% 20% 0% 0%;
+        font-size: 9px;
+    }
+    .contai-d article {
+        font-size: 9px;
+    }
+    .contai-d, .tcls, .dct1, .estadistics {
+        margin-left: 3%;
+    }
+    .tcl1 {
+        width: 5vw;
+        height: 4vh;
+    }
+    .cirbt1 {
+        width: 40px;
+        height: 40px;
+        background-color: black;
+        border-radius: 50px;
+    }
+    .cirbt2 {
+        width: 30px;
+        height: 30px;
+        background-color: #424242;
+        border-radius: 50px;
+        margin-left: 8px;
+    }
+    .minbt3, .minbt4 {
+        width: 60px;
+        height: 17px;
+        margin-top: 5%;
+        margin-left: 32%;
+    }
+    .minbt4 {
+        margin-left: 5%;
+    }
+    .con-alt1 {
+        margin-left: 1%;
+        width: fit-content;
+    }
+    .con-pes1 {
+        margin-left: 1%;
+        width: fit-content;
+    }
+    .minbt1, .minbt2 {
+        width: 30px;
+        height: 17px;
+        background-color: red;
+        border-radius: 10px;
+        margin-top: 5%;
+        margin-left: 5%;
+    }
+    .minbt2 {
+        background-color: #1B9AAA;
+    }
+    .tc1 {
+        height: 4vh;
+        width: 6vw;
+        background-color: white;
+        border: 1px solid gray;
+    }
+    .dct1 {
+        height: fit-content;
+    }
+    .midim {
+        margin-left: 0%;
+    }
+    .fct1 img {
+        padding-top: 0%;
+        padding-bottom: 0%;
+        padding-left: 0%;
+        padding-right: 0%;
+        border: 2px solid gray;
+        border-radius: 10px;
+        margin-top: 10%;
+    }
+    .fc1 {
+        width: 18vw;
+        margin-left: 25%;
+    }
+    .cr1 {
+        width: 20px;
+        height: 20px;
+    }
+    .btcir1 {
+        width: 25px;
+        height: 25px;
+        border-radius: 100px;
+    }
+}

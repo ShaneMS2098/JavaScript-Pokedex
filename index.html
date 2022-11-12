@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Pokémon </title>
+    <link rel="shortcut icon" href="./Icons/pikachu.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="./actions.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1> Pokedex </h1>
+        </header>
+        <div class="sctns1">
+            <section class="pk1">
+                <div class="circle">
+                    <div class="circle1"></div>
+                </div>
+                <div class="fc1">
+                    <div class="fct1">
+                        <img src="./Images/pokebola.png" alt="Pokemon" id="pokeImg" width="150px">
+                        <figcaption id="pokemonName"> Nombre </figcaption>
+                        <input type="text" placeholder="Inserta el nombre o ID" id="pokeName" name="pokeName">
+                    </div>
+                </div>
+                <div class="midim">
+                    <div class="cirbt1">
+                        <div class="cirbt2"></div>
+                    </div>
+                    <div class="minbt1"></div>
+                    <div class="minbt2"></div>
+                    <div class="cruz"></div>
+                </div>
+                <div>
+                    <button onclick="fetchPokemon()" class="bt1"> Enter </button>    
+                </div>
+            </section>
+            <section class="pk2">
+                <div class="contai-d">
+                    <article class="tp"> TIPO: <p id="pokemonType"></p></article>
+                    <article class="pMoves"> HABILIDADES: <p id="pMoves"></p></article>
+                </div>
+                <div class="tcls">
+                    <div class="tcls-sup">
+                    <article class="tcl1"></article>
+                    <article class="tcl1"></article>
+                    <article class="tcl1"></article>
+                    <article class="tcl1"></article>
+                    <article class="tcl1"></article>
+                    </div>
+                    <div class="tcls-sup">
+                        <article class="tcl1"></article>
+                        <article class="tcl1"></article>
+                        <article class="tcl1"></article>
+                        <article class="tcl1"></article>
+                        <article class="tcl1"></article>
+                    </div>
+                </div>
+                <div class="dcrtions">
+                        <div class="minbt3"></div>
+                        <div class="minbt4"></div>
+                </div>
+                <div class="bi1">
+                    <div class="dct1">
+                        <article class="tc1"></article>
+                        <article class="tc1"></article>
+                    </div>
+                    <div class="btcir1">
+                        <article class="cr1"></article>
+                    </div>
+                </div>
+                <div class="estadistics">
+                    <div class="con-alt1">
+                        <article class="altura-p">ALTURA: <p id="pokeAltura"></p></article>
+                    </div>
+                    <div class="con-pes1">
+                        <article class="peso-p"> PESO: <p id="pokePeso"></p></article>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+</body>
+</html>
